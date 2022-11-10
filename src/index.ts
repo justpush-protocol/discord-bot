@@ -11,13 +11,8 @@ if (!token) {
 }
 
 // other env variables
-const network = process.env.NETWORK;
 const tronProAPIKey = process.env.TRON_PRO_API;
 const dbURL = process.env.DATABASE_URL;
-
-if (!network) {
-  throw new Error('NETWORK is not defined');
-}
 
 if (!tronProAPIKey) {
   throw new Error('TRON_PRO_API is not defined');

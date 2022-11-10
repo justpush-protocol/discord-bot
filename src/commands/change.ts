@@ -24,7 +24,7 @@ const ChangeCommand: Command = {
   run: async (client: Client, interaction: CommandInteraction) => {
     const { username, id } = interaction.user;
     const wallet = interaction.options.data[0].value as string;
-    const validAddress = isValidAddress(wallet, process.env.NETWORK as string);
+    const validAddress = isValidAddress(wallet);
 
     const user = await getUser(id);
 

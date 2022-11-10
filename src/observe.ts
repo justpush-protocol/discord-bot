@@ -5,7 +5,7 @@ import { User } from '@prisma/client';
 import { Client } from 'discord.js';
 
 export const observeNotifcationsOfRegisteredUsers = async (client: Client) => {
-  const tronweb = getTronWeb(process.env.NETWORK || 'shasta');
+  const tronweb = getTronWeb();
   const justPush = new JustPush(tronweb);
 
   interface ObservingUsers {

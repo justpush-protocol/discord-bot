@@ -24,10 +24,7 @@ const StartCommand: Command = {
   run: async (client: Client, interaction: CommandInteraction) => {
     const { id } = interaction.user;
     const wallet = interaction.options.data[0].value as string;
-    const validAddress = await isValidAddress(
-      wallet,
-      process.env.NETWORK as string
-    );
+    const validAddress = await isValidAddress(wallet);
 
     const user = await getUser(id);
 

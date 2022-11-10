@@ -48,6 +48,14 @@ This repository
 
 ## JustPush Discord Bot
 
-# TODO
+Join our discord server using the link bellow.
+
+[https://discord.gg/Baqkey4sPK](https://discord.gg/Baqkey4sPK)
+
+Make sure you enable DMs by server members.
+
+Follow the video to setup your wallet address. 
+
+[![Watch the video](https://img.youtube.com/vi/nA95Y54Y9xI/default.jpg)](https://youtu.be/nA95Y54Y9xI)
 
 ---
